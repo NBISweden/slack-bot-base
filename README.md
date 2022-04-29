@@ -28,15 +28,22 @@ Enable socket mode to use the examples in this repo.
 Here you can add new commands for your bot to react to. The demo bot reacts to
 `/calm`, but you can change this easily.
 
+You have to add all commands you want to use in the app using the **Create New
+Command** button.
+
 ### Event Subscriptions
 
 You need:
  - `message.im` to chat with your bot
  - `app_mention` to be able to @ your bot
 
+NOTE: Bots need to be explicitly added to a channel to react to mentions. An
+easy way to add bots to a channel is to write their @name, then clicking the
+name and selecting "Add this app to a channel".
+
 ### OAuth & Permissions
 
-You need
+You need to add some permissions under **Bot Token Scopes**:
  - `app_mentions:read` for the `app_mention` event
  - `chat:write` to reply to messages to your bot
  - `commands` to use slash commands
