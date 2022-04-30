@@ -1,0 +1,14 @@
+{
+  "name": "chatbot",
+  "version": "0.1.0",
+  "description": "A chatbot base demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Norling",
+  "license": "GPLv3",
+  "dependencies": {
+    "@slack/bolt": "^3.11.0"
+  }
+}

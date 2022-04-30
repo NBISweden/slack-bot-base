@@ -56,6 +56,29 @@ The bots reads token information from environment variables. You will need:
  - `SLACK_APP_TOKEN`, found under **Basic Information** -> **App-Level Tokens**.
    Click the token name to see the token value (starts with `xapp-`).
 
+### Javascript
+
+Make sure that you have exported the needed environment variables mentioned
+above.
+
+First, go to the `javascript` directory and install the dependencies:
+```
+npm install
+```
+
+Then start the bot as:
+```
+node chatbot.js
+```
+
+If your tokens are correct, you should see:
+```
+⚡️ Bolt app is running!
+```
+
+You can now test talking to your bot on slack!
+
+
 ### Python
 
 Make sure that you have exported the needed environment variables mentioned
