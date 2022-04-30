@@ -56,6 +56,29 @@ The bots reads token information from environment variables. You will need:
  - `SLACK_APP_TOKEN`, found under **Basic Information** -> **App-Level Tokens**.
    Click the token name to see the token value (starts with `xapp-`).
 
+### Golang
+
+Make sure that you have exported the needed environment variables mentioned
+above.
+
+First, go to the `golang` directory and install the dependencies:
+```
+go get
+```
+
+Then start the bot as:
+```
+go run .
+```
+or
+```
+go build
+./chatbot
+```
+
+The golang chatbot has a lot more debug messages than the other two, and is the
+only one that explicitly tells you if if connected successfully.
+
 ### Javascript
 
 Make sure that you have exported the needed environment variables mentioned
