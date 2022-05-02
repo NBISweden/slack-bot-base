@@ -56,6 +56,11 @@ The bots reads token information from environment variables. You will need:
  - `SLACK_APP_TOKEN`, found under **Basic Information** -> **App-Level Tokens**.
    Click the token name to see the token value (starts with `xapp-`).
 
+Finally, invite your bot to a channel. If you're unsure which channel to use, try out `#botchaos`.
+Use the programming language you prefer (see sections below) to run the bot.
+Once running, it will respond to mentions (like `@<botname>`). To respond to slash commands, you
+will have to edit the `chatbot` file, eg `python/chatbot.py`.
+
 ### Golang
 
 Make sure that you have exported the needed environment variables mentioned
